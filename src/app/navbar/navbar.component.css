@@ -7,7 +7,6 @@
   body {
    
     font-family: 'segoe ui';
-
   }
   
   .nav {
@@ -17,13 +16,7 @@
     position: relative;
     top: -1vh;
   }
-  .nav-icon
-  {
-    text-decoration: none;
-    color: #efefef;
-    font-family: 'Poppins', sans-serif;
-  }
-
+  
   .nav > .nav-header {
     display: inline;
   }
@@ -43,7 +36,6 @@
     display: inline;
     float: right;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
   }
   
   .nav > .nav-links > a {
@@ -76,7 +68,6 @@
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
-      z-index: 9999;
     }
     .nav > .nav-btn > label > span {
       display: block;
@@ -94,7 +85,6 @@
       overflow-y: hidden;
       top: 50px;
       left: 0px;
-      z-index: 9999;
     }
     .nav > .nav-links > a {
       display: block;
