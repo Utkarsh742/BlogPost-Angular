@@ -17,8 +17,9 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router, private http: HttpClient, private loginService: HttpserviceService) {}
 
   ngOnInit() : void {
-    const currentUser = this.loginService.list(`${this.API_URL}/currentUser/1`).subscribe(
+    const currentUser = this.loginService.list(`${this.API_URL}/currentuser/1`).subscribe(
       (res) => {
+        console.log(res)
         this.currentUser = res;
       },
       (err) => {
@@ -38,11 +39,11 @@ export class HomeComponent implements OnInit {
   }
 
   postNewBlogPage() {
-    if(this.currentUser.id === 1) {
+    if (this.currentUser.id === 1) {
       this.router.navigate(['/post'])
     } else {
       alert("You must be logged in to create new blog") 
-      this.router.navigate(['/login'])
+      this.router.navigate(['/signup'])
     }
   }
 
