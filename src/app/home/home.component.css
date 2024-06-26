@@ -15871,7 +15871,6 @@
   }
   
   .text-hide {
-    font: 0/0 a;
     color: transparent;
     text-shadow: none;
     background-color: transparent;
@@ -18778,7 +18777,6 @@
     height: 19px;
     line-height: 19px;
     text-align: center;
-    font-family: 'NucleoIcons';
     display: inline-block;
     position: absolute;
     right: 15px;
@@ -21196,7 +21194,6 @@
     box-sizing: border-box;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
-    background: #fff;
     -webkit-box-shadow: 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0, 0, 0, 0.08);
     box-shadow: 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0, 0, 0, 0.08);
   }
@@ -21539,13 +21536,11 @@
     width: 75%;
     left: 12.5%;
     padding: 6.16px 0 0 0;
-    line-height: 1;
     height: 28px;
     display: inline-block;
     text-align: center;
     -webkit-transform: translate3d(0px, 0px, 0px);
     transform: translate3d(0px, 0px, 0px);
-    line-height: 20px;
   }
   
   .flatpickr-current-month span.cur-month {
@@ -21899,16 +21894,12 @@
   .flatpickr-time {
     text-align: center;
     outline: 0;
-    display: block;
     height: 0;
     line-height: 40px;
     max-height: 40px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     overflow: hidden;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
   }
   
